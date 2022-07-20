@@ -10,7 +10,6 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import HelpIcon from '@mui/icons-material/Help';
-// import TextareaAutosize from '@mui/base/TextareaAutosize';
 
 function Copyright(props) {
   return (
@@ -91,6 +90,7 @@ export default function SignUp() {
               </Grid>
               <Grid item xs={12}>
                 <TextField
+                InputProps={{style:{height:150}}}
                   required
                   fullWidth
                   size="large"
